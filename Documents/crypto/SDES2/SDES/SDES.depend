@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1538324110 source:d:\profil\documents\programmes codeblocks\sdes\main.cpp
+	<iostream>
+	<string>
+	<cmath>
+	<fstream>
+

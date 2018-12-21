@@ -1,0 +1,6 @@
+texte avec des entiers comme 17
+ou des reels comme 65.6 ou 17.34
+et des valeurs difficiles comme
+8 à ne pas confondre avec .8
+A la fin de ce le nombre de valeurs entieres
+est de 4 entiers et 3 valeurs reelles

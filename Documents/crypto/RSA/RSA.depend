@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1538924322 source:d:\profil\documents\ecole\programmes codeblocks\rsa\rsa\main.cpp
+	<iostream>
+	<tuple>
+	<cmath>
+	<array>
+	<fstream>
+

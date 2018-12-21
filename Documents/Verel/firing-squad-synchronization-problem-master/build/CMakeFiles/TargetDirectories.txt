@@ -1,0 +1,5 @@
+/etudiants/tboitel/Documents/Verel/firing-squad-synchronization-problem-master/build/CMakeFiles/rebuild_cache.dir
+/etudiants/tboitel/Documents/Verel/firing-squad-synchronization-problem-master/build/CMakeFiles/t-solution.dir
+/etudiants/tboitel/Documents/Verel/firing-squad-synchronization-problem-master/build/CMakeFiles/t-exportSVG.dir
+/etudiants/tboitel/Documents/Verel/firing-squad-synchronization-problem-master/build/CMakeFiles/t-eval.dir
+/etudiants/tboitel/Documents/Verel/firing-squad-synchronization-problem-master/build/CMakeFiles/edit_cache.dir

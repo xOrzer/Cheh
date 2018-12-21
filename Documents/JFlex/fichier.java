@@ -1,0 +1,90 @@
+import
+java.io.*
+;
+public
+class
+uncomment
+{
+//classe principale
+public
+static
+void
+main
+(
+String 
+[]
+ args
+)
+throws
+ IOException 
+{
+// Yylex va prendre en entre args[0]
+�
+Yylex yy 
+=
+new
+ Yylex
+(
+new
+ BufferedReader
+(
+new
+ FileReader
+(
+args
+[0]));
+Yytoken token
+;
+// la fin de fichier est codé par le token null
+while
+((
+token 
+=
+ yy
+.
+yylex
+())
+!=
+null
+)
+System
+.
+out
+.
+println
+(
+token
+.
+image
+)
+}
+}
+//la classe Yytoken
+public
+class
+Yytoken
+{
+private
+ String image
+;
+public
+Yytoken
+(
+String image
+){
+this
+.
+image
+=
+ image
+;
+}
+public
+ String 
+image
+(){
+return
+ image
+;
+}
+}

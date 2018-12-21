@@ -1,0 +1,72 @@
+Question 1:
+
+toString retourne une représentation de classe en chaîne de caractères.
+
+
+Question 2:
+
+En théorie cela doit nous apprendre de quoi est composée la classe
+
+tpreflect.paquetcadeau.hidden.Type1@14ae5a5
+tpreflect.paquetcadeau.hidden.Type2@7f31245a
+Muahahahahahahaaaa!!!
+interface tpreflect.paquetcadeau.hidden.Type4
+
+
+Question 3 :
+
+On peut supposer que la class vector est composée de 4 types dont le
+troisième est... Particulier...
+
+
+Question 4 :
+
+D'après la javadoc java.lang.class hérite de java.lang.objet.
+Les class serai donc des objets !
+
+
+Question 5 et 6:
+
+En utilisant les methodes d'objets/classes (trouvées sur la javadoc) getClass
+et getMethods on affiche la liste des méthodes de la classe vector.
+
+public final void java.lang.Object.wait(long,int) throws java.lang.InterruptedException
+public final native void java.lang.Object.wait(long) throws java.lang.InterruptedException
+public final void java.lang.Object.wait() throws java.lang.InterruptedException
+public boolean java.lang.Object.equals(java.lang.Object)
+public java.lang.String java.lang.Object.toString()
+public native int java.lang.Object.hashCode()
+...
+...
+...
+
+La liste est longue mais on peut retrouver quelques méthodes classique.
+
+On fait également apparaître les constructeurs: (getConstructors() )
+
+public tpreflect.paquetcadeau.hidden.Type1()
+public tpreflect.paquetcadeau.hidden.Type1(int,long,java.lang.String,double)
+public tpreflect.paquetcadeau.hidden.Type2()
+public tpreflect.paquetcadeau.hidden.Type3()
+
+On ne trouve qu'un attribut dans la classe :
+
+public int tpreflect.paquetcadeau.hidden.Type1.i
+
+Différence entre getFields() et getDeclaredFields() :
+
+getFields retourne les attributs publics de la classe elle même
+getDeclaredFields retourne l'intégralité des attributs de la classe (y compris
+les private, protected... )
+
+
+Question 7 :
+
+Enormément de méthodes sont déclarer en public, ce qui peut poser des problème de sécurité
+car tout le monde peut y accéder.
+
+
+https://docs.oracle.com/javase/10/docs/api/index.html?overview-summary.html
+
+
+

@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/etudiants/tboitel/Documents/Verel/Nouveau projet/firing-squad-synchronization-problem/test/../src/base/automata.h
+iostream
+-
+fstream
+-
+base/solution.h
+-
+
+/etudiants/tboitel/Documents/Verel/Nouveau projet/firing-squad-synchronization-problem/test/../src/base/solution.h
+string
+-
+iostream
+-
+
+/etudiants/tboitel/Documents/Verel/Nouveau projet/firing-squad-synchronization-problem/test/t-exportSVG.cpp
+iostream
+-
+fstream
+-
+base/solution.h
+-
+base/automata.h
+-
+

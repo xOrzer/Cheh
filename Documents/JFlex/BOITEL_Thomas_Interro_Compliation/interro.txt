@@ -1,0 +1,100 @@
+
+
+
+
+
+
+DECLARATIONS type-> DECLARATIONS 
+
+
+
+
+
+
+
+double type-> double 
+d type-> indentificateur 
+= type-> AFFECT 
+3.14159 type-> REEL 
+; type-> PTVIRG 
+
+int type-> int 
+i type-> indentificateur 
+= type-> AFFECT 
+2 type-> ENTIER 
+; type-> PTVIRG 
+
+int type-> int 
+maValeur type-> indentificateur 
+= type-> AFFECT 
+4 type-> ENTIER 
+; type-> PTVIRG 
+
+
+int type-> int 
+valeurNulle type-> indentificateur 
+= type-> AFFECT 
+0 type-> ENTIER 
+; type-> PTVIRG 
+
+int type-> int 
+calcul1 type-> indentificateur 
+; type-> PTVIRG 
+
+double type-> double 
+calcul2 type-> indentificateur 
+; type-> PTVIRG 
+
+
+CODE type-> CODE 
+
+
+read type-> indentificateur 
+( type-> PARG 
+i type-> indentificateur 
+) type-> PARD 
+; type-> PTVIRG 
+
+calcul1 type-> indentificateur 
+= type-> AFFECT 
+- type-> MOINS 
+( type-> PARG 
+i type-> indentificateur 
++ type-> PLUS 
+1 type-> ENTIER 
+) type-> PARD 
+; type-> PTVIRG 
+
+calcul2 type-> indentificateur 
+= type-> AFFECT 
+d type-> indentificateur 
+* type-> MULT 
+5.26 type-> REEL 
+* type-> MULT 
+3 type-> ENTIER 
+- type-> MOINS 
+2.0 type-> REEL 
+; type-> PTVIRG 
+
+write type-> indentificateur 
+( type-> PARG 
+calcul1 type-> indentificateur 
+) type-> PARD 
+; type-> PTVIRG 
+
+write type-> indentificateur 
+( type-> PARG 
+calcul2 type-> indentificateur 
+) type-> PARD 
+; type-> PTVIRG 
+
+write type-> indentificateur 
+( type-> PARG 
+fin type-> indentificateur 
+de type-> indentificateur 
+mon type-> indentificateur 
+programme type-> indentificateur 
+) type-> PARD 
+; type-> PTVIRG 
+
+

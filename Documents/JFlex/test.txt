@@ -1,0 +1,4 @@
+FACTURE  JA001
+Pomme  3  10,
+Orange  5  7,
+TOTAL  65.

@@ -1,0 +1,1 @@
+/usr/bin/c++    -std=c++14 -Wall -Wextra   CMakeFiles/main.out.dir/main.cpp.o CMakeFiles/main.out.dir/solution.cpp.o CMakeFiles/main.out.dir/knapsack.cpp.o  -o main.out -rdynamic 
